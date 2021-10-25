@@ -1,0 +1,178 @@
+body {
+  background-color: black;
+}
+
+.titlepage {
+  background-color: black;
+  font-family: 'Cutive Mono', monospace;
+  text-align: center;
+  color: rgb(75,251,0);
+  margin-top: 23vh;
+  border: solid white;
+  padding: 2vh;
+  font-size: 40px;
+  border-width: 4px;
+}
+
+.mezbreeze {
+  font-family: 'Cutive Mono', monospace;
+  text-align: left;
+  font-size: 20px;
+  color: rgb(75,251,0);
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+#meztitle {
+  border: solid white 4px;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  position: absolute;
+  top: 15vh;
+  left: 65vh;
+  font-size: 30px;
+
+}
+
+#mezbox {
+  border: solid white 4px;
+  margin-right: 75vh;
+  position: absolute;
+  top: 35vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.history {
+  font-family: 'Cutive Mono', monospace;
+  text-align: left;
+  font-size: 20px;
+  color: rgb(75,251,0);
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+#histitle {
+  border: solid white 4px;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  position: absolute;
+  top: 15vh;
+  left: 30vh;
+  font-size: 30px;
+  margin-left: 15vh;
+}
+
+#hisbox {
+  border: solid white 4px;
+  margin-left: 70vh;
+  margin-right: 5vh;
+  position: absolute;
+  top: 35vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-top: 1vh;
+  padding-bottom: 0vh;
+}
+
+.mezangelle{
+  background-color: Black;
+  font-family: 'Cutive Mono', monospace;
+  text-align: center;
+  color: rgb(75,251,0);
+}
+
+.mezangelle {
+  font-family: 'Cutive Mono', monospace;
+  text-align: left;
+  font-size: 20px;
+  color: rgb(75,251,0);
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+#gelletitle {
+  border: solid white 4px;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  position: absolute;
+  top: 15vh;
+  left:10vh;
+  font-size: 30px;
+  margin-left: 30vh;
+
+}
+
+#gellebox {
+  border: solid white 4px;
+  margin-right: 75vh;
+  position: absolute;
+  top: 35vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin-right: 90vh;
+}
+
+#done{
+  background-color: black;
+  font-family: 'Cutive Mono', monospace;
+  text-align: center;
+  color: rgb(75,251,0);
+  margin-top: 23vh;
+  border: solid white 4px;
+  padding: 2vh;
+  font-size: 80px;
+  border-width: 4px;
+}
+
+a{
+  color: rgb(75,251,0);
+
+}
+
+p {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  align-self: start;
+  flex-flow:wrap;
+}
+
+h3{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-flow:wrap;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: black;
+  font-family: 'Cutive Mono', monospace;
+  text-align: center;
+  color: rgb(75,251,0);
+  padding: 0.5vh;
+}
+
+.menu {
+  list-style-type: none;
+}
+
+#item a:hover, #item a:hover::after{
+  background-color: white;
+}
